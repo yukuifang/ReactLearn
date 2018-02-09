@@ -10,7 +10,7 @@ module.exports = {
         filename:'server-entry.js',
         path:path.join(__dirname,'../dist'),
         publicPath:'',
-        libraryTarget: "commonjs2" //方案，使用node环境
+        libraryTarget: "commonjs2" //方案，使用node环境,打包出来的东西符合commonjs2规范
     },
     module: {
         rules: [
