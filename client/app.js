@@ -10,9 +10,7 @@ import App from './app.jsx'
 ReactDOM.render(<App/>,document.body)
 
 
-$(function () {
-    console.log('hehe')
-})
+
 
 
 

@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
     target: 'node',
     entry:{
-        app:path.join(__dirname,'../client/app.js')
+        app:path.join(__dirname,'../client/server-entry.js')
     },
     output:{
         //无缓存概念 无需[name].[hash].js
@@ -20,7 +20,7 @@ module.exports = {
 
             },
             {
-                test: /js$/,
+                test: /.js$/,
                 loader:'babel-loader',
                 exclude:[
                     path.resolve(__dirname,'../node_modules')

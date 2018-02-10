@@ -960,10 +960,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 _reactDom2.default.render(_react2.default.createElement(_app2.default, null), document.body);
 
-(0, _jquery2.default)(function () {
-    console.log('hehe');
-});
-
 /***/ }),
 /* 15 */
 /***/ (function(module, exports, __webpack_require__) {
