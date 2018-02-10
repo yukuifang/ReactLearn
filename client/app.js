@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom'
 import App from './app.jsx'
 
 
-ReactDOM.render(<App/>,document.body)
+ReactDOM.hydrate(<App/>,document.getElementById('root'))
 
 
 

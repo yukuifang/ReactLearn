@@ -8,7 +8,7 @@ module.exports = {
     output:{
         filename:'[name].[hash].js',
         path:path.join(__dirname,'../dist'),
-        publicPath:''
+        publicPath:'/public'
     },
     module: {
         rules: [
@@ -31,7 +31,11 @@ module.exports = {
     },
     plugins: [
 
-        new HTMLPlugin()
+        new HTMLPlugin(
+            {
+                template:path.join(__dirname,'../client/template.html')
+            }
+        )
 
     ]
 
