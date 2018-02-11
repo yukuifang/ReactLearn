@@ -2,7 +2,9 @@
   "presets":[
      ["es2015", { "loose": true }],
      "react"
+  ],
+  "plugins": [
+    //热更新插件
+    "react-hot-loader/babel"
   ]
-
-
 }
